@@ -1,0 +1,36 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>RT Logs</title>
+  <link href="bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <nav class="navbar navbar-default sidebar" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Runbot Log<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-play"></span></a></li>
+          <li ><a href="#">Libros<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-th-list"></span></a></li>
+          <li ><a href="#">Tags<span style="font-size:16px;" class="pull-right hidden-xs showopacity fa fa-tags"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="display">
+  </div>
+  <script src="jquery-2.2.4.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="logic.js"></script>
+  <script>if (window.module) module = window.module;</script>
+</body>
+</html>

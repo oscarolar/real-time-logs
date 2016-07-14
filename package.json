@@ -1,0 +1,14 @@
+{
+  "name": "real-time-logs",
+  "version": "1.0.0",
+  "description": "Lets you see .txt logs live",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Oscar Alcala",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.6"
+  }
+}
